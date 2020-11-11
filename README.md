@@ -31,7 +31,7 @@
 | Combinations       |    |      |    |    |     |
 | Permutations       |    |      |    |    |     |
 | Backtracking       |    |      |    |    |     |
-| Cyclic Sort        |    |      |    |    |     |
+| Cyclic Sort        | x  |      |    |    |     |
 | Kadane's           |    |      |    |    |     |
 | Djikstra's         |    |      |    |    |     |
 | A*                 |    |      |    |    |     |
