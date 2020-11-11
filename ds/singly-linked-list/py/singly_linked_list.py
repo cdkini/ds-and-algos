@@ -6,13 +6,13 @@ class Node:
 class SLList:
     def __init__(self):
         self.__sentinel = Node(float('inf'), None)
-        self.__prev = self.__sentinel
-        self.__curr = self.__sentinel.next
         self.__size = 0
 
     def append(self, item):
-        self.__curr.next = item
-        self.__curr = item
+        ptr = self.__sentinel
+        while ptr.next:
+            ptr = ptr.next
+        ptr.next = Node(item, None)
         self.__size += 1
 
     def insert(self, item, index):
@@ -32,16 +32,16 @@ class SLList:
     def get(self, index):
         if index >= self.__size:
             return None
-        ptr = self.sentinel.next
+        ptr = self.__sentinel.next
         for _ in range(index):
             ptr = ptr.next
-        return ptr
+        return ptr.val
 
     def index_of(self, item):
         i = 0
         ptr = self.__sentinel.next
         while ptr:
-            if ptr == item:
+            if ptr.val == item:
                 return i
             ptr = ptr.next
             i += 1
@@ -51,8 +51,7 @@ class SLList:
         return not self.__size
 
     def remove_index(self, index):
-        if index >= self.__size:
-
+        pass # TODO: Open to implement!
 
     def remove_item(self, item):
         pass # TODO: Open to implement!
