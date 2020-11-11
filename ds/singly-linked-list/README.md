@@ -4,7 +4,7 @@
 
 - void append(Object o)
   - Description: Appends the specified element to the end of the list
-  - Complexity: O(1)
+  - Complexity: O(n) where 'n' is the number of elements if we do not have a pointer to the tail. Otherwise, it will be O(1)
   
 - void insert(Object o, int i)
   - Description: Inserts the specified element at the specified position of the list
@@ -19,11 +19,11 @@
   - Complexity: O(n) where 'n' is the number of elements in the list
   
 - int get(int i)
-  - Description: Returns the elment at the specified position in the list
+  - Description: Returns the element at the specified position in the list
   - Complexity: O(n) where 'n' is the number of elements in the list
   
 - int indexOf(Object o)
-  - Description: Returns the index of the first occurrenc of the specified item in the list or -1 fi the list does not contain the element
+  - Description: Returns the index of the first occurrence of the specified item in the list or -1 fi the list does not contain the element
   - Complexity: O(n) where 'n' is the number of elements in the list
   
 - boolean isEmpty()
