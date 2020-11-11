@@ -21,7 +21,7 @@
 | Quick Sort         |    |      |    |    |     |
 | Heap Sort          |    |      |    |    |     |
 | Quickselect        |    |      |    |    |     |
-| Binary Search      |    |      |    |    |     |
+| Binary Search      | x  |      |    |    |     |
 | Tree DFS           |    |      |    |    |     |
 | Tree BFS           |    |      |    |    |     |
 | Graph DFS          |    |      |    |    |     |
