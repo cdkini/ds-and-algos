@@ -1,7 +1,7 @@
 | Data Structures    | py | java | go | ts | cpp |
 |--------------------|----|------|----|----|-----|
 | Dynamic Array      |    |      |    |    |     |
-| Singly Linked List |    |      |    |    |     |
+| Singly Linked List | ~  |      |    |    |     |
 | Doubly Linked List |    |      |    |    |     |
 | Stack              | x  |      |    |    |     |
 | Queue              |    |      |    |    |     |
