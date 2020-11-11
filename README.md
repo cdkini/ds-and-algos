@@ -32,5 +32,15 @@
 | Backtracking       |    |      |    |    |     |
 | Cyclic Sort        |    |      |    |    |     |
 | Kadane's           |    |      |    |    |     |
+| Djikstra's         |    |      |    |    |     |
+| A*                 |    |      |    |    |     |
+| Floyd's            |    |      |    |    |     |
+| Boyer-Moore        |    |      |    |    |     |
 | Topological Sort   |    |      |    |    |     |
 | Knuth-Morris-Pratt |    |      |    |    |     |
+
+Pending folders:
+Djikstra's
+A*
+Floyd's
+Boyer-Moore
