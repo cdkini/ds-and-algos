@@ -2,10 +2,6 @@
 
 <h5>API</h5>
 
-- Stack()
-  - Description: Constructor
-  - Complexity: O(1)
-
 - boolean empty()
   - Description: Tests if stack is empty
   - Complexity: O(1)
