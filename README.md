@@ -3,7 +3,7 @@
 | Dynamic Array      |    |      |    |    |     |
 | Singly Linked List |    |      |    |    |     |
 | Doubly Linked List |    |      |    |    |     |
-| Stack              |    |      |    |    |     |
+| Stack              | x  |      |    |    |     |
 | Queue              |    |      |    |    |     |
 | Set                |    |      |    |    |     |
 | Map                |    |      |    |    |     |
