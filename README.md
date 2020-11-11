@@ -40,7 +40,8 @@
 | Knuth-Morris-Pratt |    |      |    |    |     |
 
 Pending folders:
-Djikstra's
-A*
-Floyd's
-Boyer-Moore
+
+- Djikstra's
+- A*
+- Floyd's
+- Boyer-Moore
