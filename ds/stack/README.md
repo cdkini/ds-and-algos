@@ -1,6 +1,7 @@
 <h3>stack</h3>
 
 <h5>API</h5>
+
 - <i>Stack()</i>: Constructor.
 
 - <i>boolean empty()<i>: Tests if stack is empty.
