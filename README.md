@@ -12,6 +12,8 @@
 | Heap               |    |      |    |    |     |
 | Trie               |    |      |    |    |     |
 | Graph              |    |      |    |    |     |
+| Union Find*        |    |      |    |    |     |
+<i>* Only if you have extra time or really like your DS&A</i>
 
 | Algorithms         | py | java | go | ts | cpp |
 |--------------------|:--:|:----:|:--:|:--:|:---:|
@@ -35,9 +37,9 @@
 | Kadane's           |    |      |    |    |     |
 | Djikstra's         |    |      |    |    |     |
 | A*                 |    |      |    |    |     |
-| Floyd's            |    |      |    |    |     |
-| Boyer-Moore        |    |      |    |    |     |
-| Topological Sort   |    |      |    |    |     |
-| Knuth-Morris-Pratt |    |      |    |    |     |
-
-
+| Floyd's*           |    |      |    |    |     |
+| Boyer-Moore*       |    |      |    |    |     |
+| Topological Sort*  |    |      |    |    |     |
+| Rabin-Karp*        |    |      |    |    |     |
+| Knuth-Morris-Pratt*|    |      |    |    |     |
+<i>* Only if you have extra time or really like your DS&A</i>
