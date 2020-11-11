@@ -54,10 +54,23 @@ class SLList:
         pass # TODO: Open to implement!
 
     def remove_item(self, item):
-        pass # TODO: Open to implement!
+        ptr = self.__sentinel
+        while ptr.next:
+            if ptr.next.val == item:
+                ptr.next = ptr.next.next
+                return True
+            ptr = ptr.next
+        return False
 
     def remove_all(self, item):
-        pass # TODO: Open to implement!
+        removed = False
+        ptr = self.__sentinel
+        while ptr.next:
+            while ptr.next and ptr.next.val == item:
+                ptr.next = ptr.next.next
+                removed = True
+            ptr = ptr.next
+        return removed
 
     def sort(self):
         pass # TODO: Open to implement!
