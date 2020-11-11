@@ -7,6 +7,7 @@
 | Queue              |    |      |    |    |     |
 | Set                |    |      |    |    |     |
 | Map                |    |      |    |    |     |
+| Binary Tree        |    |      |    |    |     |
 | BST                |    |      |    |    |     |
 | Heap               |    |      |    |    |     |
 | Trie               |    |      |    |    |     |
