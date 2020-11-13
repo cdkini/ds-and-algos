@@ -3,6 +3,7 @@ class Node:
         self.val = val
         self.next = next
 
+
 class SLList:
     def __init__(self):
         self.sentinel = Node(float("inf"), None)
@@ -17,7 +18,17 @@ class SLList:
         self.size += 1
 
     def insert(self, item, index):
-        pass
+        node = Node(item, None)
+        index = min(self.size, index)
+        curr = self.sentinel
+        i = 0
+        while i != index:
+            i += 1
+            curr = curr.next
+        temp = curr.next
+        curr.next = node
+        node.next = temp
+        self.size += 1
 
     def clear(self):
         self.__init__()
@@ -57,13 +68,16 @@ class SLList:
         return not self.size
 
     def remove_by_index(self, index):
+        if self.is_empty():
+            return
         index = min(self.size - 1, index)
-        curr = self.sentinel.next
+        curr = self.sentinel
         i = 0
         while i != index:
             i += 1
             curr = curr.next
         curr.next = curr.next.next
+        self.size -= 1
 
     def remove_by_value(self, item):
         if self.is_empty():
@@ -72,6 +86,7 @@ class SLList:
         while curr and curr.next:
             if curr.next.val == item:
                 curr.next = curr.next.next
+                self.size -= 1
                 return True
             curr = curr.next
         return False
@@ -85,6 +100,7 @@ class SLList:
             while curr and curr.next and curr.next.val == item:
                 curr.next = curr.next.next
                 item_removed = True
+                self.size -= 1
             curr = curr.next
         return item_removed
 
