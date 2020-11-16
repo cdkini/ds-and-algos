@@ -4,6 +4,7 @@ class Node:
     self.prev = prev
     self.next = next
 
+
 class Queue:
   def __init__(self):
     self.size = 0
@@ -18,6 +19,7 @@ class Queue:
     self.dummy_tail.prev = node
     node.next = self.dummy_tail
     node.prev = temp
+    node.prev.next = node
     self.size += 1
     
   def dequeue(self):
@@ -36,16 +38,23 @@ class Queue:
     
   def display(self):
     if self.is_empty():
-      print("[]")
+      print([])
     curr = self.dummy_head.next
-    print("[", end=" ")
+    contents = []
     for _ in range(self.size):
-      print(curr.val, end=" ")
-      curr = curr.next
-    print("]")
+        contents.append(curr.val)
+        curr = curr.next
+    print(contents)
+    return contents
 
   def is_empty(self):
     return not self.size
     
   def size(self):
     return self.size
+
+q = Queue()
+for n in range(1,6):
+    q.enqueue(n)
+    
+q.display()
